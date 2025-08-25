@@ -17,7 +17,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/langgenius/dify-sdk-go"
+	"github.com/fulldb/dify-sdk-go"
 )
 
 func main() {
