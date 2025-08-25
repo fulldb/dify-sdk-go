@@ -45,7 +45,7 @@ type Usage struct {
     CompletionTokens     int    `json:"completion_tokens"`
     CompletionUnitPrice  string `json:"completion_unit_price"`
     Currency             string `json:"currency"`
-    Latency              int    `json:"latency"`
+    Latency              float64    `json:"latency"`
     PromptPrice          string `json:"prompt_price"`
     PromptPriceUnit      string `json:"prompt_price_unit"`
     PromptTokens         int    `json:"prompt_tokens"`
